@@ -1,0 +1,159 @@
+body, html {
+    margin: 0;
+    height: 100%;
+    font-family: "Inconsolata", sans-serif;
+}
+
+.bgimg {
+    background-position: center;
+    background-size: cover;
+    /* background-image: url("../img/admin_bg.jpg"); */
+    min-height: 75%;
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2E2E2E;
+    
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #E8E8E8; color: #2E2E2E;}
+
+ul.topnav li a.active {background-color: #E8E8E8; color: #2E2E2E;}
+
+.header {
+    width: 30%;
+    margin: 50px auto 0px;
+    color: white;
+    background: #2E2E2E;
+    text-align: center;
+    border: 1px solid #B0C4DE;
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+}
+
+.upload-form {
+    width: 30%;
+    margin: 0px auto;
+    padding: 20px;
+    border: 1px solid #B0C4DE;
+    background: white;
+    border-radius: 0px 0px 10px 10px;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+p .input-image{
+    text-align: center;
+}
+
+
+/*To center an image, set left and right margin to auto and make it into a block element*/
+.upload-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+button {
+    background-color: #2E2E2E; /*#04AA6D*/
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 16px;
+}
+
+/* Rounded border */
+hr.rounded {
+    border-top: 8px solid #bbb;
+    border-radius: 5px;
+}
+
+th {
+    background-color: #2E2E2E;
+    color: #E8E8E8;
+
+}
+
+th, td {
+    padding: 15px;
+    /*border-radius: 25px;*/
+    /*text-align: left;*/
+}
+
+tr:hover {background-color: #f5f5f5;}
+
+.update-form {
+    /*position: absolute;*/   
+    /*position: -webkit-sticky;*/ /* Safari */
+    /*position: sticky;*/
+    position:fixed;
+    top:50%;
+    right: 3rem;
+    /*float: right;*/ 
+    width: 10%;
+    margin: 0px auto;
+    padding: 20px;
+    border: 1px solid;
+    background: #006200;
+    border-radius: 10px 10px 10px 10px;
+}
+
+/*.update-form-header {
+    width: 10%;
+    margin: 0px auto;
+    color: white;
+    background: #2E2E2E;
+    text-align: center;
+    border: 1px solid #B0C4DE;
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+    position:fixed;
+    top:40%;
+    right: 5rem;
+}*/
